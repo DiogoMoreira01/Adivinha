@@ -1,0 +1,73 @@
+<!-- Pagina HTML sem bibliotecas somente com os dados e as div para utilizar no css -->
+<!-- Diogo Moreira 08 de dezembro de 2021 -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<title>Qual é o número? </title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	</head>
+
+	<body>
+		<div id="titulo" class="gradient">
+			QUAL É O NÚMERO?
+		</div>
+		<hr width="40%">
+
+		<div id="mensagem" class="gradient">
+			<pre>   </pre>
+		</div>
+		<div id="vertical-center">
+			<div id="display-1" class="display-container display-size-12 display-no-0">
+				<div class="segment-x segment-a"><span class="segment-border"></span></div>
+				<div class="segment-y segment-b"><span class="segment-border"></span></div>
+				<div class="segment-y segment-c"><span class="segment-border"></span></div>
+				<div class="segment-x segment-d"><span class="segment-border"></span></div>
+				<div class="segment-y segment-e"><span class="segment-border"></span></div>
+				<div class="segment-y segment-f"><span class="segment-border"></span></div>
+				<div class="segment-x segment-g"><span class="segment-border"></span></div>
+			</div>
+			<div id="display-2" class="display-container display-size-12 display-no-1">
+				<div class="segment-x segment-a"><span class="segment-border"></span></div>
+				<div class="segment-y segment-b"><span class="segment-border"></span></div>
+				<div class="segment-y segment-c"><span class="segment-border"></span></div>
+				<div class="segment-x segment-d"><span class="segment-border"></span></div>
+				<div class="segment-y segment-e"><span class="segment-border"></span></div>
+				<div class="segment-y segment-f"><span class="segment-border"></span></div>
+				<div class="segment-x segment-g"><span class="segment-border"></span></div>
+			</div>
+			<div id="display-3" class="display-container display-size-12 display-no-2">
+				<div class="segment-x segment-a"><span class="segment-border"></span></div>
+				<div class="segment-y segment-b"><span class="segment-border"></span></div>
+				<div class="segment-y segment-c"><span class="segment-border"></span></div>
+				<div class="segment-x segment-d"><span class="segment-border"></span></div>
+				<div class="segment-y segment-e"><span class="segment-border"></span></div>
+				<div class="segment-y segment-f"><span class="segment-border"></span></div>
+				<div class="segment-x segment-g"><span class="segment-border"></span></div>
+			</div>
+		</div>
+		<div id="botao">
+			<button id="btn" disabled="disabled">
+				<span class="material-icons">
+					autorenew
+					</span>
+					Nova partida
+			</button>
+		</div>
+		<div id="comandos">
+			<div id="campo-texto">
+				<input id="palpite" class="tite" type="text" placeholder="Digite o palpite">
+			</div>
+			<div id="enviar">
+				<button type="button" id="enviarBtn" class="enviabt">Enviar</button>
+			</div>
+		</div>
+	</body>
+	<script src="scripts/main.js"></script>
+	
+</html>
